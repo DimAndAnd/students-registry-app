@@ -26,6 +26,6 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - name: build app
-      run: npm start --if-present
+      run: npm start
     - name: test app
       run: npm test
